@@ -1,1 +1,34 @@
-/bin/
+gnore build output directories
+bin/
+out/
+
+# Ignore class files
+*.class
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Maven and Gradle build directories (if using Maven/Gradle)
+target/
+build/
+
+# Ignore backup files
+*~
+*.swp
+:q
+:wq!
+:q1
+:q!
+
